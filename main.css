@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size:1.5rem;
+}
+
+html{
+    background-color:#160302;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap:wrap;
+    margin:15px;
+
+}
+
+header{
+    color:rgb(2, 168, 66);
+    font-size:4rem;
+    align-items: center;
+    margin:1rem;
+    padding:4rem;
+    border:5px solid red;
+    border-radius: 20%;
+    text-align: center;
+
+
+}
+main{
+    flex-grow: 1;
+    align-content: center;
+    place-content: center;
+    gap:10px;
+    color:rgb(1, 87, 248);
+    margin:1rem;
+    padding:2rem;
+    flex-flow: column;
+    display:flex;
+    border:10px double gray;
+    border-radius: 20%;
+
+}
+audio{
+    display:none;
+}
+#Monsterstats{
+    display:none;
+    color:rgba(250, 9, 9, 0.74);
+    background-color: rgb(170, 252, 211);
+    margin:30px;
+    padding:2rem;
+    text-align: center;
+    border-radius:20%;
+    width:800px;
+    justify-content: center;
+
+}
+#stats{
+    border:3px solid black;
+    border-radius: 30px 30px 0px 0px;
+    padding:2rem;
+    text-align: center;
+    color:yellowgreen;
+    margin:10px;
+    background-color: rgba(34, 12, 0, 0.178);
+
+}
+#controls{
+    border:5px solid black;
+    margin: 10px;
+    padding:2rem;
+    justify-content: center;
+    display:flex;
+    flex-flow: row;
+}
+footer{
+    text-align: center;
+    color:darksalmon;
+    font-size:2rem;
+}
+ul{
+    display:flex;
+    flex-flow:column;
+    justify-content: center;
+}
+footer li:hover{
+    color:rgba(231, 46, 0, 0.692);
+
+}
+button{
+    border:2px solid red;
+    border-radius: 20%;
+    padding:20px;
+    width:auto;
+    margin:1rem;
+    cursor:pointer;
+    font-weight:bold;
+    font-style: italic;
+    background-color: rgb(20, 0, 29);
+    color:bisque;
+}
+button:hover{
+    background-color: rgb(10, 0, 32);
+    color:rgb(3, 141, 255);
+    border-radius: 20%;
+    font-style:italic;
+}
+#text{
+    color:rgb(194, 2, 18);
+    font-size:2rem;
+    margin:20px;
+    text-align: center;
+}
+#controls{
+    align-content: center;
+}
+p{
+    font-style:oblique;
+    font-weight: bold;
+    color:firebrick;
+    padding:20px;
+    margin:10px;
+}
